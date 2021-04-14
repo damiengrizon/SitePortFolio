@@ -118,6 +118,9 @@ img.cover-profile2{
 .col40{
     width: 40%;
 }
+.col30{
+    width: 30%;    
+}
 .col-portfolio{
     width: 47%;
     text-align: center;
@@ -151,9 +154,18 @@ div.barre-verticale{
     margin-right: 8px;
 }
 div.frame{
-    margin: 30px 40px 30px 40px;
-    padding: 20px;
-    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.2);
-
+    margin: 30px 50px;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
+}
+p.titreFrameBox{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.col-frame{
+    width: 100%;
 }
 
