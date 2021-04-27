@@ -189,3 +189,10 @@ H2.portfolio{
     font-size: 26px;
     font-weight: normal;
 }
+.retour{
+    text-align: left;
+    float: left;
+    color: var(--color1);
+    position: absolute;
+    border-left: 150px;
+}
