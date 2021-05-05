@@ -225,6 +225,11 @@ H2.portfolio{
 
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 768px) {
+    iframe {
+        width: 100%;
+        border: none;
+        height: 250px;
+    }    
     img.cover-profile{
         height: 90px;
         margin-top: 75px;
@@ -259,7 +264,10 @@ H2.portfolio{
         width: 100%;
         margin-bottom: 20px;
     }
-    
+    div.frame{
+        margin: 0px 0px;
+        padding: 0px 0px;
+        box-shadow:none;
 
 
   }
