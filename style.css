@@ -13,6 +13,7 @@ body{
 iframe {
     width: 100%;
     border: none;
+    height: 350px;
 }
 
 div.cover{
@@ -86,7 +87,7 @@ div.section{
     overflow: auto;
 }
 div.section-grise1{
-    background: url("triangle2white.svg") no-repeat center bottom/100% ;
+    background: url("triangle2white.svg") no-repeat center bottom -1px/100% ;
     background-color: var(--color2);
     padding-bottom: 70px;
 }
@@ -120,7 +121,7 @@ div.section-grise1 p {
 img.cover-profile2{
     max-width: 300px;
 }
-.col40{
+img.col-contenu{
     width: 40%;
 }
 .col30{
@@ -130,8 +131,10 @@ img.cover-profile2{
     width: 47%;
     text-align: center;
 }
-.col60{
+
+div.col-contenu{
     width: 60%;
+    padding-left: 16px;
 }
 .float-right{
     float: right;
@@ -212,3 +215,51 @@ H2.portfolio{
     margin-bottom: 20px;
     text-align: center;
 }
+.texte-centrale{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.texte-centrale p {
+    margin-top: 0px;
+}
+
+/* RESPONSIVE DESIGN : MOBILE */
+@media only screen and (max-width: 768px) {
+    img.cover-profile{
+        height: 90px;
+        margin-top: 75px;
+        }
+    h1{
+        font-size: 38px;
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+    div.cover p{
+        margin-top: 2px;
+        font-size: 13px;
+    }
+    div.section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    div.section-grise1{
+        padding-bottom: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    img.col-contenu{
+        width: 100%;
+    }
+    div.col-contenu{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .col-portfolio{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+
+
+  }
