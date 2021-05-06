@@ -73,7 +73,7 @@ a.contact-button{
     font-size: 14px;
     text-decoration: none;
     display: inline-block;
-    margin-top : 18px;
+    margin-top : 8px;
 }
 a.contact-button:hover{
     color: white;
@@ -176,6 +176,9 @@ p.titreFrameBox{
 .col-frame{
     width: 100%;
 }
+div.frame img{
+    width: 100px;
+}
 /* PORTFOLIO */
 .portfolio-header{
     height: 90px;
@@ -226,8 +229,6 @@ H2.portfolio{
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 768px) {
     iframe {
-        width: 100%;
-        border: none;
         height: 250px;
     }    
     img.cover-profile{
@@ -268,6 +269,18 @@ H2.portfolio{
         margin: 0px 0px;
         padding: 0px 0px;
         box-shadow:none;
+    }
+    div.frame img{
+        width: 70px;
+    }
+    .portfolio-header-tittle{
+        font-size: 20px;
+    }
+    a.contact-button{
+        padding: 7px 15px;
+        font-size: 12px;
+        margin-top : 5px;
+    }
 
 
   }
